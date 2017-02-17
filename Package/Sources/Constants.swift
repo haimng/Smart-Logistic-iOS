@@ -9,10 +9,12 @@
 let _main_cache = "main_cache"
 let _user = "user"
 
-let _Main = "Main"
-let _Left = "Left"
-let _Profile = "Profile"
-let _Settings = "Settings"
 let _Menu = "Menu"
+let _Left = "Left"
 let _Signup = "Signup"
 let _Signin = "Signin"
+let _Profile = "Profile"
+let _Main = "Main"
+let _Packages = "Packages"
+let _Settings = "Settings"
+

@@ -23,7 +23,7 @@ class SigninViewController: UITableViewController {
 //        }, failure: { error in
 //        })
         
-        emailField.text = "vnjp22@gmail.com"
+        emailField.text = "a@b.com" // TODO
         passwordField.text = ""
     }
     

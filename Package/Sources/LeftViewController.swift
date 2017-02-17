@@ -11,6 +11,8 @@ import SlideMenuControllerSwift
 enum Menu: Int {
     case profile = 0
     case main
+    case notifications
+    case packages
     case settings
 }
 
@@ -38,7 +40,7 @@ class LeftViewController : UITableViewController {
             }
         }
         else {
-            label.text = "Sign In or Register"
+            label.text = "Đăng nhập | Đăng ký"
         }
     }
         
@@ -48,6 +50,9 @@ class LeftViewController : UITableViewController {
             switch menu {
             case .profile:
                 nvc = Helper.logged() ? Helper.nvc(_Profile, vc: _Profile) : Helper.nvc(_Signup, vc: _Signup)
+                break
+            case .packages:
+                nvc = Helper.nvc(_Packages, vc: _Packages)
                 break
             case .settings:
                 nvc = Helper.nvc(_Settings, vc: _Settings)

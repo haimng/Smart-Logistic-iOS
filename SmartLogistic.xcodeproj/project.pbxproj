@@ -47,6 +47,8 @@
 		24498F631D45BC10006B8676 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24498F621D45BC10006B8676 /* Constants.swift */; };
 		2453537B1E31F77200940B4E /* SlideMenuControllerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2453537A1E31F77200940B4E /* SlideMenuControllerSwift.framework */; };
 		2453537C1E31F77200940B4E /* SlideMenuControllerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2453537A1E31F77200940B4E /* SlideMenuControllerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		24C321781E56D64C001D386E /* Packages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C321771E56D64C001D386E /* Packages.storyboard */; };
+		24C3217B1E56D7EE001D386E /* PackagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C3217A1E56D7EE001D386E /* PackagesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,6 +107,8 @@
 		242CA0C81D46B8A200973ED3 /* AwesomeCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AwesomeCache.framework; path = Carthage/Build/iOS/AwesomeCache.framework; sourceTree = "<group>"; };
 		24498F621D45BC10006B8676 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2453537A1E31F77200940B4E /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlideMenuControllerSwift.framework; path = Carthage/Build/iOS/SlideMenuControllerSwift.framework; sourceTree = "<group>"; };
+		24C321771E56D64C001D386E /* Packages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Packages.storyboard; sourceTree = "<group>"; };
+		24C3217A1E56D7EE001D386E /* PackagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackagesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,9 +165,10 @@
 				241DF8111D3EDCAF00E179C9 /* Helper.swift */,
 				241DF8671D42CA6E00E179C9 /* Network.swift */,
 				241DF81D1D3EDFEC00E179C9 /* Components */,
-				241DF7F71D3ECAB900E179C9 /* MainStoryboard */,
 				241DF8391D42A39F00E179C9 /* SignupStoryboard */,
 				241DF80E1D3EDB6300E179C9 /* ProfileStoryboard */,
+				241DF7F71D3ECAB900E179C9 /* MainStoryboard */,
+				24C321791E56D7B8001D386E /* PackagesStoryboard */,
 				241DF8381D42A38700E179C9 /* SettingsStoryboard */,
 				242CA0BC1D4676A300973ED3 /* Models */,
 				241DF7EC1D3DF2C200E179C9 /* Utils */,
@@ -176,9 +181,10 @@
 			isa = PBXGroup;
 			children = (
 				241DF8151D3EDF2600E179C9 /* LaunchScreen.storyboard */,
-				241DF8161D3EDF2600E179C9 /* Main.storyboard */,
 				241DF8361D42A37000E179C9 /* Signup.storyboard */,
 				241DF8171D3EDF2600E179C9 /* Profile.storyboard */,
+				241DF8161D3EDF2600E179C9 /* Main.storyboard */,
+				24C321771E56D64C001D386E /* Packages.storyboard */,
 				241DF8341D429FB500E179C9 /* Settings.storyboard */,
 			);
 			path = Storyboards;
@@ -290,6 +296,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		24C321791E56D7B8001D386E /* PackagesStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				24C3217A1E56D7EE001D386E /* PackagesViewController.swift */,
+			);
+			name = PackagesStoryboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -356,6 +370,7 @@
 				241DF8231D3EE60000E179C9 /* ReviewCell.xib in Resources */,
 				241DF81A1D3EDF2600E179C9 /* Profile.storyboard in Resources */,
 				241DF7DE1D3DF23000E179C9 /* Assets.xcassets in Resources */,
+				24C321781E56D64C001D386E /* Packages.storyboard in Resources */,
 				241DF8191D3EDF2600E179C9 /* Main.storyboard in Resources */,
 				241DF8181D3EDF2600E179C9 /* LaunchScreen.storyboard in Resources */,
 				241DF80B1D3ED63600E179C9 /* ic_menu_black_24dp.png in Resources */,
@@ -385,6 +400,7 @@
 				242CA0BE1D4676C400973ED3 /* UserModel.swift in Sources */,
 				241DF8291D3EE75D00E179C9 /* UIImageView.swift in Sources */,
 				241DF7F21D3DF46100E179C9 /* MainViewController.swift in Sources */,
+				24C3217B1E56D7EE001D386E /* PackagesViewController.swift in Sources */,
 				241DF7FD1D3ECF6800E179C9 /* LeftViewController.swift in Sources */,
 				241DF82B1D3EE7F600E179C9 /* UITableView.swift in Sources */,
 				241DF83D1D42BEAF00E179C9 /* SigninViewController.swift in Sources */,

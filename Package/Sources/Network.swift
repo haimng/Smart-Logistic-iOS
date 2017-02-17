@@ -17,7 +17,7 @@ let _error = "error"
 let _code = "code"
 let _message = "message"
 
-let _HOST = "https://pokemonfan.info/api/"
+let _HOST = "https://smartlogistic.info/api/"
 
 class Network : NSObject {
     
