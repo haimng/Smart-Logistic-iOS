@@ -47,8 +47,15 @@
 		24498F631D45BC10006B8676 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24498F621D45BC10006B8676 /* Constants.swift */; };
 		2453537B1E31F77200940B4E /* SlideMenuControllerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2453537A1E31F77200940B4E /* SlideMenuControllerSwift.framework */; };
 		2453537C1E31F77200940B4E /* SlideMenuControllerSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2453537A1E31F77200940B4E /* SlideMenuControllerSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		24C2A1AA1E5774A40021E78F /* PackageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2A1A91E5774A40021E78F /* PackageTableViewController.swift */; };
+		24C2A1AE1E5789B10021E78F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2A1AD1E5789B10021E78F /* Test.swift */; };
+		24C2A1B01E578B780021E78F /* PackageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C2A1AF1E578B780021E78F /* PackageCell.xib */; };
+		24C2A1B21E578BD50021E78F /* PackageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2A1B11E578BD50021E78F /* PackageCell.swift */; };
 		24C321781E56D64C001D386E /* Packages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C321771E56D64C001D386E /* Packages.storyboard */; };
 		24C3217B1E56D7EE001D386E /* PackagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C3217A1E56D7EE001D386E /* PackagesViewController.swift */; };
+		24C321841E56F029001D386E /* PagingMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C321831E56F029001D386E /* PagingMenuController.framework */; };
+		24C321851E56F07F001D386E /* PagingMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C321831E56F029001D386E /* PagingMenuController.framework */; };
+		24C321861E56F07F001D386E /* PagingMenuController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24C321831E56F029001D386E /* PagingMenuController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +66,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				2453537C1E31F77200940B4E /* SlideMenuControllerSwift.framework in Embed Frameworks */,
+				24C321861E56F07F001D386E /* PagingMenuController.framework in Embed Frameworks */,
 				241DF8641D42C9BA00E179C9 /* Alamofire.framework in Embed Frameworks */,
 				242CA0CA1D46B8A200973ED3 /* AwesomeCache.framework in Embed Frameworks */,
 			);
@@ -101,14 +109,19 @@
 		241DF83A1D42A41B00E179C9 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		241DF83C1D42BEAF00E179C9 /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
 		241DF8621D42C9BA00E179C9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		241DF8671D42CA6E00E179C9 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		241DF8671D42CA6E00E179C9 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Network.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		242CA0BD1D4676C400973ED3 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		242CA0BF1D469EB700973ED3 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		242CA0C81D46B8A200973ED3 /* AwesomeCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AwesomeCache.framework; path = Carthage/Build/iOS/AwesomeCache.framework; sourceTree = "<group>"; };
-		24498F621D45BC10006B8676 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		24498F621D45BC10006B8676 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Constants.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2453537A1E31F77200940B4E /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlideMenuControllerSwift.framework; path = Carthage/Build/iOS/SlideMenuControllerSwift.framework; sourceTree = "<group>"; };
+		24C2A1A91E5774A40021E78F /* PackageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageTableViewController.swift; sourceTree = "<group>"; };
+		24C2A1AD1E5789B10021E78F /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		24C2A1AF1E578B780021E78F /* PackageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PackageCell.xib; sourceTree = "<group>"; };
+		24C2A1B11E578BD50021E78F /* PackageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageCell.swift; sourceTree = "<group>"; };
 		24C321771E56D64C001D386E /* Packages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Packages.storyboard; sourceTree = "<group>"; };
-		24C3217A1E56D7EE001D386E /* PackagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackagesViewController.swift; sourceTree = "<group>"; };
+		24C3217A1E56D7EE001D386E /* PackagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PackagesViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		24C321831E56F029001D386E /* PagingMenuController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PagingMenuController.framework; path = Carthage/Build/iOS/PagingMenuController.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +129,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C321841E56F029001D386E /* PagingMenuController.framework in Frameworks */,
 				2453537B1E31F77200940B4E /* SlideMenuControllerSwift.framework in Frameworks */,
+				24C321851E56F07F001D386E /* PagingMenuController.framework in Frameworks */,
 				241DF8631D42C9BA00E179C9 /* Alamofire.framework in Frameworks */,
 				242CA0C91D46B8A200973ED3 /* AwesomeCache.framework in Frameworks */,
 			);
@@ -164,6 +179,7 @@
 				24498F621D45BC10006B8676 /* Constants.swift */,
 				241DF8111D3EDCAF00E179C9 /* Helper.swift */,
 				241DF8671D42CA6E00E179C9 /* Network.swift */,
+				24C2A1AD1E5789B10021E78F /* Test.swift */,
 				241DF81D1D3EDFEC00E179C9 /* Components */,
 				241DF8391D42A39F00E179C9 /* SignupStoryboard */,
 				241DF80E1D3EDB6300E179C9 /* ProfileStoryboard */,
@@ -195,6 +211,7 @@
 			children = (
 				241DF8131D3EDF0200E179C9 /* SearchBar.xib */,
 				241DF8221D3EE60000E179C9 /* ReviewCell.xib */,
+				24C2A1AF1E578B780021E78F /* PackageCell.xib */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -256,6 +273,7 @@
 				241DF81E1D3EE01300E179C9 /* SearchBar.swift */,
 				241DF82E1D3EE8E700E179C9 /* BaseTableViewCell.swift */,
 				241DF8241D3EE65A00E179C9 /* ReviewCell.swift */,
+				24C2A1B11E578BD50021E78F /* PackageCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -280,6 +298,7 @@
 		241DF8661D42C9C500E179C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				24C321831E56F029001D386E /* PagingMenuController.framework */,
 				242CA0C81D46B8A200973ED3 /* AwesomeCache.framework */,
 				241DF8621D42C9BA00E179C9 /* Alamofire.framework */,
 				2453537A1E31F77200940B4E /* SlideMenuControllerSwift.framework */,
@@ -300,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				24C3217A1E56D7EE001D386E /* PackagesViewController.swift */,
+				24C2A1A91E5774A40021E78F /* PackageTableViewController.swift */,
 			);
 			name = PackagesStoryboard;
 			sourceTree = "<group>";
@@ -366,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				241DF8311D41F7C300E179C9 /* avatar.png in Resources */,
+				24C2A1B01E578B780021E78F /* PackageCell.xib in Resources */,
 				241DF81C1D3EDF9E00E179C9 /* icon_search.png in Resources */,
 				241DF8231D3EE60000E179C9 /* ReviewCell.xib in Resources */,
 				241DF81A1D3EDF2600E179C9 /* Profile.storyboard in Resources */,
@@ -388,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				241DF8211D3EE2A200E179C9 /* UIView.swift in Sources */,
+				24C2A1AA1E5774A40021E78F /* PackageTableViewController.swift in Sources */,
 				241DF8121D3EDCAF00E179C9 /* Helper.swift in Sources */,
 				241DF8041D3ED28200E179C9 /* UIApplication.swift in Sources */,
 				241DF8051D3ED28200E179C9 /* UIColor.swift in Sources */,
@@ -406,9 +428,11 @@
 				241DF83D1D42BEAF00E179C9 /* SigninViewController.swift in Sources */,
 				241DF8681D42CA6E00E179C9 /* Network.swift in Sources */,
 				241DF8071D3ED3B900E179C9 /* String.swift in Sources */,
+				24C2A1AE1E5789B10021E78F /* Test.swift in Sources */,
 				241DF83B1D42A41B00E179C9 /* SignupViewController.swift in Sources */,
 				241DF7F11D3DF46100E179C9 /* AppDelegate.swift in Sources */,
 				241DF82D1D3EE8C800E179C9 /* UIImage.swift in Sources */,
+				24C2A1B21E578BD50021E78F /* PackageCell.swift in Sources */,
 				241DF8251D3EE65A00E179C9 /* ReviewCell.swift in Sources */,
 				24498F631D45BC10006B8676 /* Constants.swift in Sources */,
 			);
@@ -518,7 +542,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Package/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SmartLogistic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -541,7 +565,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Package/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SmartLogistic;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -31,6 +31,12 @@ class MainViewController: UITableViewController {
 //        super.viewWillAppear(animated)
 //    }
 
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        Test.run();
+    }
+    
     
     // TableView
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

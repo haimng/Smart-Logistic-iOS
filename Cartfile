@@ -1,3 +1,4 @@
 github "Alamofire/Alamofire" == 4.3.0
 github "aschuch/AwesomeCache" == 5.0
 github "dekatotoro/SlideMenuControllerSwift" == 3.0.1
+github "kitasuke/PagingMenuController" == 2.2.0

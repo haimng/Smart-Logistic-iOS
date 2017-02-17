@@ -9,15 +9,7 @@
 import Foundation
 import Alamofire
 
-let _SUCCESS = "SUCCESS"
-let _FAILURE = "FAILURE"
-let _status = "status"
-let _data = "data"
-let _error = "error"
-let _code = "code"
-let _message = "message"
-
-let _HOST = "https://smartlogistic.info/api/"
+let __API = "https://smartlogistic.info/api/"
 
 class Network : NSObject {
     
@@ -40,7 +32,7 @@ class Network : NSObject {
             "Accept-Encoding": "gzip;q=0,deflate,sdch"
         ]
         
-        Alamofire.request(_HOST+api, method: method, parameters: params, encoding: JSONEncoding.default, headers: headers)
+        Alamofire.request(__API+api, method: method, parameters: params, encoding: JSONEncoding.default, headers: headers)
             .responseJSON { response in
 //                print("\(method) \((response.request?.URLString)!)")                
 //                print(response.request?.allHTTPHeaderFields)
