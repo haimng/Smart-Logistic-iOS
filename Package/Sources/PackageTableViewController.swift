@@ -37,4 +37,10 @@ class PackageTableViewController: UITableViewController {
         cell.setData(data)
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // TODO: Helper.navigate(_Packages, vc: _Package)
+        let vc: UIViewController = Helper.vc(_Packages, vc: _Package)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }

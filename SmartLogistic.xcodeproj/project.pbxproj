@@ -51,6 +51,10 @@
 		24C2A1AE1E5789B10021E78F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2A1AD1E5789B10021E78F /* Test.swift */; };
 		24C2A1B01E578B780021E78F /* PackageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C2A1AF1E578B780021E78F /* PackageCell.xib */; };
 		24C2A1B21E578BD50021E78F /* PackageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2A1B11E578BD50021E78F /* PackageCell.swift */; };
+		24C2A1B41E57F44E0021E78F /* PackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2A1B31E57F44E0021E78F /* PackageViewController.swift */; };
+		24C2A1B61E57F46C0021E78F /* PackageInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2A1B51E57F46C0021E78F /* PackageInfoViewController.swift */; };
+		24C2A1B81E57F4760021E78F /* PackageSenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2A1B71E57F4760021E78F /* PackageSenderViewController.swift */; };
+		24C2A1BA1E57F4840021E78F /* PackageReceiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2A1B91E57F4840021E78F /* PackageReceiverViewController.swift */; };
 		24C321781E56D64C001D386E /* Packages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C321771E56D64C001D386E /* Packages.storyboard */; };
 		24C3217B1E56D7EE001D386E /* PackagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C3217A1E56D7EE001D386E /* PackagesViewController.swift */; };
 		24C321841E56F029001D386E /* PagingMenuController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C321831E56F029001D386E /* PagingMenuController.framework */; };
@@ -119,6 +123,10 @@
 		24C2A1AD1E5789B10021E78F /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		24C2A1AF1E578B780021E78F /* PackageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PackageCell.xib; sourceTree = "<group>"; };
 		24C2A1B11E578BD50021E78F /* PackageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageCell.swift; sourceTree = "<group>"; };
+		24C2A1B31E57F44E0021E78F /* PackageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageViewController.swift; sourceTree = "<group>"; };
+		24C2A1B51E57F46C0021E78F /* PackageInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageInfoViewController.swift; sourceTree = "<group>"; };
+		24C2A1B71E57F4760021E78F /* PackageSenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageSenderViewController.swift; sourceTree = "<group>"; };
+		24C2A1B91E57F4840021E78F /* PackageReceiverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageReceiverViewController.swift; sourceTree = "<group>"; };
 		24C321771E56D64C001D386E /* Packages.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Packages.storyboard; sourceTree = "<group>"; };
 		24C3217A1E56D7EE001D386E /* PackagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = PackagesViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		24C321831E56F029001D386E /* PagingMenuController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PagingMenuController.framework; path = Carthage/Build/iOS/PagingMenuController.framework; sourceTree = "<group>"; };
@@ -320,6 +328,10 @@
 			children = (
 				24C3217A1E56D7EE001D386E /* PackagesViewController.swift */,
 				24C2A1A91E5774A40021E78F /* PackageTableViewController.swift */,
+				24C2A1B31E57F44E0021E78F /* PackageViewController.swift */,
+				24C2A1B51E57F46C0021E78F /* PackageInfoViewController.swift */,
+				24C2A1B71E57F4760021E78F /* PackageSenderViewController.swift */,
+				24C2A1B91E57F4840021E78F /* PackageReceiverViewController.swift */,
 			);
 			name = PackagesStoryboard;
 			sourceTree = "<group>";
@@ -410,6 +422,7 @@
 			files = (
 				241DF8211D3EE2A200E179C9 /* UIView.swift in Sources */,
 				24C2A1AA1E5774A40021E78F /* PackageTableViewController.swift in Sources */,
+				24C2A1B81E57F4760021E78F /* PackageSenderViewController.swift in Sources */,
 				241DF8121D3EDCAF00E179C9 /* Helper.swift in Sources */,
 				241DF8041D3ED28200E179C9 /* UIApplication.swift in Sources */,
 				241DF8051D3ED28200E179C9 /* UIColor.swift in Sources */,
@@ -426,13 +439,16 @@
 				241DF7FD1D3ECF6800E179C9 /* LeftViewController.swift in Sources */,
 				241DF82B1D3EE7F600E179C9 /* UITableView.swift in Sources */,
 				241DF83D1D42BEAF00E179C9 /* SigninViewController.swift in Sources */,
+				24C2A1BA1E57F4840021E78F /* PackageReceiverViewController.swift in Sources */,
 				241DF8681D42CA6E00E179C9 /* Network.swift in Sources */,
 				241DF8071D3ED3B900E179C9 /* String.swift in Sources */,
 				24C2A1AE1E5789B10021E78F /* Test.swift in Sources */,
 				241DF83B1D42A41B00E179C9 /* SignupViewController.swift in Sources */,
 				241DF7F11D3DF46100E179C9 /* AppDelegate.swift in Sources */,
+				24C2A1B61E57F46C0021E78F /* PackageInfoViewController.swift in Sources */,
 				241DF82D1D3EE8C800E179C9 /* UIImage.swift in Sources */,
 				24C2A1B21E578BD50021E78F /* PackageCell.swift in Sources */,
+				24C2A1B41E57F44E0021E78F /* PackageViewController.swift in Sources */,
 				241DF8251D3EE65A00E179C9 /* ReviewCell.swift in Sources */,
 				24498F631D45BC10006B8676 /* Constants.swift in Sources */,
 			);

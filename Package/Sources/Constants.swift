@@ -14,6 +14,7 @@ let _data = "data"
 let _error = "error"
 let _code = "code"
 let _message = "message"
+let _paging_controller = "paging_controller"
 
 let _SUCCESS = "SUCCESS"
 let _FAILURE = "FAILURE"
@@ -34,3 +35,9 @@ let _Profile = "Profile"
 let _Main = "Main"
 let _Packages = "Packages"
 let _Settings = "Settings"
+
+// ViewController
+let _Package = "Package"
+let _PackageInfo = "PackageInfo"
+let _PackageSender = "PackageSender"
+let _PackageReceiver = "PackageReceiver"
